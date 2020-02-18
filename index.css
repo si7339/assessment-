@@ -1,0 +1,94 @@
+section {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding: 7em;
+}
+
+h1 {
+    margin-bottom: 2rem !important;
+}
+
+.project-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid teal;
+}
+
+.colored{
+    background-color: #a8e4d7;
+}
+
+.gradient {
+    background: linear-gradient(teal, #ffff);
+}
+
+.gradient-reverse {
+    background: linear-gradient(#ffff, teal);
+}
+
+#bigHalfCircle path {
+	fill: darken(teal, 7%);
+    stroke: darken(teal, 7%);
+    background-color: #a8e4d7;
+}
+
+.header-wrap {
+    word-wrap: wrap;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.info {
+    max-width: 500px;
+    margin: auto;
+    word-wrap: wrap;
+}
+
+.about-info {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Content sections */
+#home {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+    color: white;
+    background-color: teal;
+}
+
+#projects {
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+.project, .contact-info-single {
+    max-width: 300px;
+}
+
+.multiple {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 2rem 0 0;
+}
+
+
+#contact {
+    text-align: center;
+}
