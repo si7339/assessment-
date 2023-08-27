@@ -14,10 +14,10 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.square {
+    width: 220px;
+    height: 290px;
+    border-radius: 20%;
     border: 2px solid teal;
 }
 
